@@ -1,6 +1,6 @@
 # Lab 4 - Switch Configuration and VLAN
 
-University laboratory work on configuring Cisco switches and virtual local area networks in Cisco Packet Tracer.
+Laboratory work on configuring Cisco switches and virtual local area networks in Cisco Packet Tracer.
 
 Topics:
 
