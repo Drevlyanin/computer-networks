@@ -1,6 +1,6 @@
 # Lab 5 - Git and GitHub Fundamentals
 
-University laboratory work on version control with Git and collaborative development on GitHub.
+Laboratory work on version control with Git and collaborative development on GitHub.
 
 Topics:
 
