@@ -1,0 +1,15 @@
+Student: Pavliuk Andrii
+Group: KI-412
+Source variant: 25
+Effective variant: 25 mod 6 = 1
+
+Part A:
+LAN-1: 192.168.1.0/24, gateway 192.168.1.254
+LAN-2: 192.168.10.0/24, gateway 192.168.10.254
+
+Part B:
+VLAN 10: 192.168.10.0/24, gateway 192.168.10.254
+VLAN 20: 192.168.20.0/24, gateway 192.168.20.254
+VLAN 30: 192.168.30.0/24, gateway 192.168.30.254
+
+Part C (RIP): not performed; optional task.

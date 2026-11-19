@@ -1,0 +1,27 @@
+hostname SW2
+!
+vlan 10
+ name VLAN10
+vlan 20
+ name VLAN20
+vlan 30
+ name VLAN30
+!
+interface range FastEthernet0/1-2
+ switchport mode access
+ switchport access vlan 10
+!
+interface range FastEthernet0/3-4
+ switchport mode access
+ switchport access vlan 20
+!
+interface range FastEthernet0/5-6
+ switchport mode access
+ switchport access vlan 30
+!
+interface GigabitEthernet0/1
+ switchport mode trunk
+ no shutdown
+!
+end
+copy running-config startup-config

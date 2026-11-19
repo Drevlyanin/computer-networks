@@ -1,0 +1,10 @@
+VLAN Name                             Status    Ports
+---- -------------------------------- --------- -------------------------------
+1    default                          active    Fa0/7-Fa0/24, Gi0/2
+10   VLAN10                           active    Fa0/1, Fa0/2
+20   VLAN20                           active    Fa0/3, Fa0/4
+30   VLAN30                           active    Fa0/5, Fa0/6
+
+Trunk port: GigabitEthernet0/1
+Encapsulation: 802.1Q
+Allowed and active VLANs: 1,10,20,30
