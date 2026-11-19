@@ -1,0 +1,37 @@
+hostname SW_2
+enable secret cisco
+service password-encryption
+!
+vlan 2
+ name designers
+vlan 3
+ name buhgalteria
+vlan 4
+ name administraciya
+vlan 5
+ name managers
+vlan 6
+ name servers
+!
+interface range FastEthernet0/1-2
+ switchport mode access
+ switchport access vlan 2
+interface range FastEthernet0/3-4
+ switchport mode access
+ switchport access vlan 5
+interface FastEthernet0/5
+ switchport mode trunk
+ no shutdown
+!
+interface Vlan1
+ ip address 192.168.0.2 255.255.255.0
+ no shutdown
+ip default-gateway 192.168.0.3
+!
+line console 0
+ password cisco
+ login
+line vty 0 4
+ password cisco
+ login
+end
