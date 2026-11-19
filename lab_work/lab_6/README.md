@@ -18,5 +18,3 @@ Files:
 - `lab_6.docx` - editable completed worksheet;
 - `lab_6.pkt` - Cisco Packet Tracer project;
 - `submission/` - device configurations and variant data.
-
-Student: Pavliuk Andrii, KI-412. Source variant 25, effective variant 1 (`25 mod 6`).
