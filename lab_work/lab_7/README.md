@@ -21,5 +21,3 @@ Files:
 - `lab_7.docx` - editable report;
 - `lab_7.pkt` - Cisco Packet Tracer project;
 - `submission/` - device configurations and addressing table.
-
-Student: Pavliuk Andrii, KI-412.
