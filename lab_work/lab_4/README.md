@@ -1,17 +1,18 @@
-# Lab 4 - Switch Configuration and VLAN
+# Лабораторна робота № 4
 
-Laboratory work on configuring Cisco switches and virtual local area networks in Cisco Packet Tracer.
+У цій папці збережено матеріали двох виконань лабораторної роботи № 4.
 
-Topics:
+## Побудова локальної мережі на базі технології Ethernet — варіант 25
 
-- Cisco Catalyst 2950-24 switch configuration
-- VLAN creation and port assignment
-- Access and trunk port modes
-- IEEE 802.1Q trunking
-- IPv4 host configuration
-- Connectivity verification with ping
+- [Звіт у форматі DOCX](ethernet_variant25/LR4_Ethernet_variant25.docx)
+- [Фізична топологія у форматі PDF](ethernet_variant25/Fizychna_topologia.pdf)
+- [Логічна топологія у форматі PNG](ethernet_variant25/Logichna_topologia.png)
 
-Files:
+Робота містить проєкт локальної мережі на базі Ethernet із маршрутизатором TP-Link ER605, керованими комутаторами TP-Link, оптичними магістральними з’єднаннями та розподілом робочих станцій за VLAN.
 
-- [Report](lab_4.pdf)
-- [Packet Tracer project](lab_4.pkt)
+## Налаштування комутаторів і VLAN у Cisco Packet Tracer
+
+- [Звіт у форматі PDF](lab_4.pdf)
+- [Проєкт Packet Tracer](lab_4.pkt)
+
+У роботі виконано створення VLAN, призначення access-портів, налаштування trunk-з’єднань IEEE 802.1Q та перевірку мережевої доступності.
